@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "apiDicionario.Controllers.Dictionary",
+    "Method": "GetWordFormatJson",
+    "RelativePath": "jsonFormat/{word}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "word",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apiDicionario.Controllers.Dictionary",
+    "Method": "GetWordTextFormat",
+    "RelativePath": "textFormat/{word}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "word",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

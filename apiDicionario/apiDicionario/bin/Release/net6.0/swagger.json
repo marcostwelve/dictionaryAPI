@@ -1,0 +1,49 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "apiDicionario, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "version": "1.0"
+  },
+  "paths": {
+    "/textFormat/{word}": {
+      "get": {
+        "tags": [
+          "Dictionary"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "word",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/jsonFormat/{word}": {
+      "get": {
+        "tags": [
+          "Dictionary"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "word",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  }
+}
